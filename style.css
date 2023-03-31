@@ -1,0 +1,57 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px;
+    font-family: 'Alkatra', cursive;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.form-layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px dotted black;
+    padding: 20px;
+    border-radius: 5px;
+
+}
+
+.rs{
+    font-size: 25px;
+    color: green;
+}
+
+input{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+#btn{
+    border-radius: 5px;
+    width: 70px;
+    height: 35px;
+}
+button{
+    border-radius: 5px;
+    width: 90px;
+    height: 40px;
+    font-size: 15px;
+    margin: 0 0 0 10px;
+}
+button:hover{
+    background-color: green;
+}
+
+.deposit, .withraw {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    }
+label {
+    font-size: 20px;
+    font-weight: 600;
+}
