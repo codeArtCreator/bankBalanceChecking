@@ -8,6 +8,7 @@ let balance = 0;
             }
             balance += amount;
             document.getElementById("balance").innerHTML = balance.toFixed(2);
+            document.getElementById("depositInput").value = " ";
         }
 
         function withdraw() {
@@ -22,6 +23,7 @@ let balance = 0;
             }
             balance -= amount;
             document.getElementById("balance").innerHTML = balance.toFixed(2);
+            document.getElementById("withdrawInput").value = " ";
         }
 
         function showBalance() {
