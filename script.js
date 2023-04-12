@@ -1,6 +1,6 @@
 let balance = 0;
 
-        function deposit() {
+        function  deposit() {
             var amount = parseFloat(document.getElementById("depositInput").value);
             if (isNaN(amount) || amount <= 0) {
                 alert("Please enter a valid amount.");
